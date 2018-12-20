@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "A Site About Shtuff"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Currently an undergraduate at PES university. Doing my B.Tech in Computer Science and Engineering. Interested in too many things for my own good. However currently Android development, Security, Distributed computing and their architecture are my top favourite. 
+Currently volunteer at Microsoft Innovation Labs, PES. 
+Have worked on an mentored project [Forget-me-Not](https://github.com/Dcoder99/Forget-me-not). Previously worked on a traffic redirection app during road flooding. 
+Most recent projects include a distributed Machine Learning API(coming soon), a [distributed key-value store](https://github.com/drholmie/PseudoDist) from scratch using python and zookeeper, with a few drawings and stories in the mix. 
+Welcome to the site, sit back, relax and have fun.
+Thanks for visiting. (Sponsored by awkward-moments)
+
 
 A data-driven personal website
 ======
