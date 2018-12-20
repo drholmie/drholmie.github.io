@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "A Site About Shtuff"
+title: "Welcome to my site"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
