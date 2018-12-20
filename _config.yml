@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Animesh ND"
+title                    : "Animesh N Dangwal"
 title_separator          : "-"
-name                     : &name "Animesh ND"
+name                     : &name "Animesh N Dangwal"
 description              : &description "personal description"
 url                      : https://drholmie.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
