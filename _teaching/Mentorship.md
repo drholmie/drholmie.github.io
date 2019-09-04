@@ -7,7 +7,7 @@ venue: "PES university"
 date: Jun-Aug 2020
 location: "Bangalore, India"
 ---
-Mentored first and second year undergraduate students at Microsoft’s on-campus research laboratory. Responsibilities included: pitching research projects to incoming students, reducing project to deliverables for students, guiding students through technical challenges, maintenance of lab facilities and conduction of events such as Hackathons. The project descriptions are below
+Mentored(from 2018-2020) first and second year undergraduate students at Microsoft’s on-campus research laboratory. Responsibilities included: pitching research projects to incoming students, reducing project to deliverables for students, guiding students through technical challenges, maintenance of lab facilities and conduction of events such as Hackathons. The project descriptions are below
 
 * <h3> <a href="https://github.com/DarkAEther/Apathetic-ML"> Apathetic ML </a> </h3>
 A project on containerized distributed machine learning using Kubernetes, Docker, Flask and RabbitMQ.
