@@ -1,5 +1,6 @@
 ---
 title: "Pseudo Dist (KV Store)"
+collection: projects
 excerpt: "A fault tolerant, high availability distributed key-value store using python and zookeeper<br/><img src='/images/500x300.png'>"
 permalink: "/projects/kvstore"
 collection: projects
