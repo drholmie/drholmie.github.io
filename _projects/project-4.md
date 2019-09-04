@@ -2,7 +2,7 @@
 title: "Sleep alert and detection helmet"
 collection: projects
 excerpt: "A helmet that detects sleepiness of a factory worker, also detects falls and faints. Using EEG signals and an IMU<br/>"
-permalink: "/projects/kvstore"
+permalink: "/projects/sleepdetect"
 ---
 *Oct. 2018*<br/>
 Project won first place in Honeywell 'Power of Connected' Hackathon.<br/>
