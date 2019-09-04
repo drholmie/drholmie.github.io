@@ -1,32 +1,9 @@
 ---
-title: "Projects"
+title: "Pseudo Dist (KV Store)"
+excerpt: "A fault tolerant, high availability distributed key-value store using python and zookeeper<br/><img src='/images/500x300.png'>"
 permalink: "/projects/"
 collection: projects
 ---
+Using python, and four systems, implemented a distributed key-value store. The system followed a master-slave architecture. Zookeeper was used for cluster coordination and failure detection. The system could also recover from master/node failures using data replication and when node comes back online, synchronizes its data with the rest of servers. Data was stored as JSON objects and split based on key.
 
-{% include base_path %}
-
-Byzantine Fault Tracing
-----
-*Ongoing(2019)*<br/>
-Implementing a novel byzantine fault tracing algorithm for distributed services using blockchain and code execution profiles<br/>
-
-Testing environment for [Linkerd](https://github.com/linkerd/linkerd2) deployments
-----
-*June 2019 -Ongoing*<br/>
-Building testing environments in different cloud deployments for linkerd<br/>
-
-Pseudo Dist (KV Store)
-----
-*Nov. 2018*<br/>
-A fault tolerant, high availability distributed key-value store using python and zookeeper<br/>
-
-Sleep alert and detection helmet (First place winner of Honeywell Hackathon)
-----
-*Oct. 2018*<br/>
-A helmet that detects sleepiness of a factory worker, also detects falls and faints, using EEG signals and an IMU data.
-
-IOT Traffic Redirection System
-----
-*June-July. 2017*<br/>
-Made, and designed an android app, using Android Studio, to redirect traffic based on road health conditions(roadflooding, potholes, etc)
+The nodes maintained two files, data and bkpdata, storing data and backup data respectively. One node acted as another's backup. When node failure occurs, all nodes notified using zookeeper, and backup node begins handling requests. When node comes back online, syncs data with other servers. (For more information click [here](https://github.com/drholmie/PseudoDist/))
