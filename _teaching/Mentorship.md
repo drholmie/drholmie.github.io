@@ -2,7 +2,7 @@
 title: "Microsoft Innovation Labs: Student Mentor"
 collection: teaching
 type: "Student Mentor"
-permalink: /teaching/mentor
+permalink: /teaching/Mentorship
 venue: "PES university"
 date: Ongoing
 location: "Bangalore, India"
