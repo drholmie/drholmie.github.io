@@ -2,7 +2,7 @@
 title: "Byzantine Fault Tracing"
 collections: projects
 excerpt: "Implementing a novel byzantine fault tracing algorithm for distributed services using blockchain and code execution profiles<br/>"
-permalink: "/projects/"
+permalink: "/projects/byzantine"
 ---
 Using blockchain, memory maps and code watermarking, we detect Byzantine faults over a deployment of distributed systems.
 * The blockchain runs on the public network, forwarding requests from the client to the private subnet of the distributed service
