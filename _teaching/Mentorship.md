@@ -4,7 +4,7 @@ collection: teaching
 type: "Student Mentor"
 permalink: /teaching/Mentorship
 venue: "PES university"
-year: Ongoing
+date: 2019
 location: "Bangalore, India"
 ---
 Mentored first and second year undergraduate students at Microsoft’s on-campus research laboratory. Responsibilities included: pitching research projects to incoming students, reducing project to deliverables for students, guiding students through technical challenges, maintenance of lab facilities and conduction of events such as Hackathons. The project descriptions are below
