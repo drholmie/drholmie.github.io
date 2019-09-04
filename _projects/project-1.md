@@ -1,10 +1,10 @@
 ---
-title: "Pseudo Dist (KV Store)"
-collection: projects
-excerpt: "A fault tolerant, high availability distributed key-value store using python and zookeeper<br/>"
-permalink: "/projects/kvstore"
-collection: projects
+title: "Byzantine Fault Tracing"
+collections: projects
+excerpt: "Implementing a novel byzantine fault tracing algorithm for distributed services using blockchain and code execution profiles<br/>"
+permalink: "/projects/"
 ---
-Using python, and four systems, implemented a distributed key-value store. The system followed a master-slave architecture. Zookeeper was used for cluster coordination and failure detection. The system could also recover from master/node failures using data replication and when node comes back online, synchronizes its data with the rest of servers. Data was stored as JSON objects and split based on key.
-
-The nodes maintained two files, data and bkpdata, storing data and backup data respectively. One node acted as another's backup. When node failure occurs, all nodes notified using zookeeper, and backup node begins handling requests. When node comes back online, syncs data with other servers. (For more information click [here](https://github.com/drholmie/PseudoDist/))
+Using blockchain, memory maps and code watermarking, we detect Byzantine faults over a deployment of distributed systems.
+* The blockchain runs on the public network, forwarding requests from the client to the private subnet of the distributed service
+* The functions it performs generated certain memory maps. These are compared to correct ones that are pre stored on the blockchain(during set up), to detect anomalies in the system.
+* If detected, the system is removed from the network and replaced by its backup, where the process continues again.
